@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 
 .button {
     background-color: #36bbce;
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
@@ -29,13 +29,13 @@ nav {
 
 .nav-link {
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
 h1 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 36px;
     margin-top: 40px;
     margin-bottom: 45px;
@@ -54,7 +54,7 @@ p {
 
 article {
     background-color: white;
-    padding: 15px 45px 30x 45px;
+    padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
 }
@@ -69,13 +69,13 @@ article {
 }
 
 footer {
-    background-color: rgb(123, 255, 0);
     padding: 70px 0px 15px 14px;
     display: flex;
+    background-color: rgb(123, 255, 0);
 }
 
 footer a {
-    margin-right: 50px;
+    margin-right: 76px;
 }
 
 footer p {
