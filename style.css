@@ -1,83 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: black;
-}
-
-header {
-    justify-content: space-between;
-    padding: 15px;
-    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Тёмный фон */
+    color: #ddd;
+    line-height: 1.6;
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.button {
-    background-color: #36bbce;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
+.container {
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-    display: flex;
+header h1 {
+    font-size: 3em;
+    color: #ffcc00;
+    margin-bottom: 10px;
 }
 
-.nav-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
+header p {
+    font-size: 1.2em;
+    color: #aaa;
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 36px;
-    margin-top: 40px;
-    margin-bottom: 45px;
+main {
+    margin-top: 20px;
 }
 
-p {
-    font-size: 24px;
-}
-
-.info {
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-    display: flex;
-}
-
-article {
-    background-color: white;
-    padding: 15px 45px 30px 45px;
-    width: 400px;
-    margin: 20px;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: rgb(141, 211, 95);
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
+.story-content {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.2em;
+    min-height: 200px;
+    text-align: justify;
+    line-height: 1.8;
 }
 
 footer {
-    padding: 70px 0px 15px 14px;
-    display: flex;
-    background-color: rgb(123, 255, 0);
-}
-
-footer a {
-    margin-right: 76px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
 }
 
 footer p {
-    font-size: 24px;
+    color: #ccc;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    color: #ffcc00;
+}
+
+pre {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 10px 0;
 }
